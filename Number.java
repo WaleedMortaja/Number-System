@@ -1,4 +1,4 @@
-package workin;
+package NumberSystem;
 
 public class Number {
 
