@@ -1,16 +1,18 @@
-package NumberSystem;
+package NumberSystems;
+
 /**
-*
-* @author Eyad AL-‘Amawi
-* @author Mahmoud AL-Shikh-Khalil
-*/
-public class Number {
+ * This program convert the same integer from any one of the main systems
+ * (Binary,Octal,Decimal and Hexadecimal) to any one of these systems
+ * and mathematical operations (addition, subtraction, multiplication, division). 
+ *
+ * @author Eyad AL-‘Amawi
+ * @author Mahmoud AL-Shikh-Khalil
+ */
+public class NumeralSystems {
 
     /**
      * This method convert the value from String type to long type .
-     *
-     * @param number is the number that we want to convert it from string to
-     * long .
+     * @param number is the number that we want to convert it from string to long .
      * @return finalNumber which is the number but on the long type .
      */
     private long String2long(String number) {
@@ -25,7 +27,6 @@ public class Number {
 
     /**
      * This method convert the number from the Binary to the Decimal.
-     *
      * @param binNumber the number in long type in the Binary system .
      * @return the number in the Decimal system .
      */
@@ -58,7 +59,6 @@ public class Number {
 
     /**
      * This method convert the number from the Binary to the Decimal.
-     *
      * @param binNumber the number in String type in the Binary system .
      * @return the number in the Decimal system .
      */
@@ -69,7 +69,6 @@ public class Number {
 
     /**
      * This method convert the number from the Octal to the Decimal.
-     *
      * @param OctNumber the number in long type in the Octal system .
      * @return the number in the Decimal system .
      */
@@ -119,7 +118,6 @@ public class Number {
 
     /**
      * This method convert the number from the Octal to the Decimal.
-     *
      * @param OctNumber the number in String type in the Octal system .
      * @return the number in the Decimal system .
      */
@@ -130,7 +128,6 @@ public class Number {
 
     /**
      * This method convert the number from the Hexadecimal to the Decimal.
-     *
      * @param hexNumber the number in String type in the Hexadecimal system .
      * @return the number in the Decimal system .
      */
@@ -205,7 +202,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Binary.
-     *
      * @param decNumber the number in long type in the Decimal system .
      * @return the number in the Binary system .
      */
@@ -228,7 +224,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Binary.
-     *
      * @param decNumber the number in String type in the Decimal system .
      * @return the number in the Binary system .
      */
@@ -239,7 +234,6 @@ public class Number {
 
     /**
      * This method convert the number from the Octal to the Binary.
-     *
      * @param octNumber the number in long type in the Octal system .
      * @return the number in the Binary system .
      */
@@ -250,7 +244,6 @@ public class Number {
 
     /**
      * This method convert the number from the Octal to the Binary.
-     *
      * @param octNumber the number in String type in the Octal system .
      * @return the number in the Binary system .
      */
@@ -261,7 +254,6 @@ public class Number {
 
     /**
      * This method convert the number from the Hexadecimal to the Binary.
-     *
      * @param hexNumber the number in String type in the Hexadecimal system .
      * @return the number in the Binary system .
      */
@@ -272,7 +264,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Octal.
-     *
      * @param decNumber the number in long type in the Decimal system .
      * @return the number in the Octal system .
      */
@@ -302,7 +293,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Octal.
-     *
      * @param decNumber the number in String type in the Decimal system .
      * @return the number in the Octal system .
      */
@@ -313,7 +303,6 @@ public class Number {
 
     /**
      * This method convert the number from the Binary to the Octal.
-     *
      * @param binNumber the number in String type in the Binary system .
      * @return the number in the Octal system .
      */
@@ -324,7 +313,6 @@ public class Number {
 
     /**
      * This method convert the number from the Binary to the Octal.
-     *
      * @param binNumber the number in long type in the Binary system .
      * @return the number in the Octal system .
      */
@@ -335,7 +323,6 @@ public class Number {
 
     /**
      * This method convert the number from the Hexadecimal to the Octal.
-     *
      * @param hexNumber the number in String type in the Hexadecimal system .
      * @return the number in the Octal system .
      */
@@ -346,7 +333,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Hexadecimal.
-     *
      * @param decNumber the number in long type in the Decimal system .
      * @return the number in the Hexadecimal system .
      */
@@ -419,7 +405,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Hexadecimal.
-     *
      * @param decNumber the number in String type in the Decimal system .
      * @return the number in the Hexadecimal system .
      */
@@ -430,7 +415,6 @@ public class Number {
 
     /**
      * This method convert the number from the Binary to the Hexadecimal.
-     *
      * @param binNumber the number in String type in the Binary system .
      * @return the number in the Hexadecimal system .
      */
@@ -441,7 +425,6 @@ public class Number {
 
     /**
      * This method convert the number from the Binary to the Hexadecimal.
-     *
      * @param binNumber the number in long type in the Binary system .
      * @return the number in the Hexadecimal system .
      */
@@ -452,7 +435,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Hexadecimal.
-     *
      * @param OctNumber the number in String type in the Octal system .
      * @return the number in the Hexadecimal system .
      */
@@ -463,7 +445,6 @@ public class Number {
 
     /**
      * This method convert the number from the Decimal to the Hexadecimal.
-     *
      * @param OctNumber the number in long type in the Octal system .
      * @return the number in the Hexadecimal system .
      */
@@ -474,7 +455,6 @@ public class Number {
 
     /**
      * This method gather the two Decimal numbers .
-     *
      * @param decNumber1 The first Decimal number .
      * @param decNumber2 The second Decimal number .
      * @return The summation of them .
@@ -486,7 +466,6 @@ public class Number {
 
     /**
      * This method gather the two Binary numbers .
-     *
      * @param binNumber1 The first Binary number .
      * @param binNumber2 The second Binary number .
      * @return The summation of them .
@@ -498,7 +477,6 @@ public class Number {
 
     /**
      * This method gather the two Octal numbers .
-     *
      * @param OctNumber1 The first Octal number .
      * @param OctNumber2 The second Octal number .
      * @return The summation of them .
@@ -510,7 +488,6 @@ public class Number {
 
     /**
      * This method gather the two Hexadecimal numbers .
-     *
      * @param hexNumber1 The first Hexadecimal number .
      * @param hexNumber2 The second Hexadecimal number .
      * @return The summation of them .
@@ -522,7 +499,6 @@ public class Number {
 
     /**
      * This method Holds subtraction of two Decimal numbers .
-     *
      * @param decNumber1 The first Decimal number .
      * @param decNumber2 The second Decimal number .
      * @return The subtraction of them .
@@ -534,7 +510,6 @@ public class Number {
 
     /**
      * This method Holds subtraction of two Binary numbers .
-     *
      * @param binNumber1 The first Binary number .
      * @param binNumber2 The second Binary number .
      * @return The subtraction of them .
@@ -546,7 +521,6 @@ public class Number {
 
     /**
      * This method Holds subtraction of two Octal numbers
-     *
      * @param OctNumber1 The first Octal number .
      * @param OctNumber2 The second Octal number .
      * @return The subtraction of them .
@@ -558,7 +532,6 @@ public class Number {
 
     /**
      * This method Holds subtraction of two Hexadecimal numbers
-     *
      * @param hexNumber1 The first Hexadecimal number .
      * @param hexNumber2 The second Hexadecimal number .
      * @return The subtraction of them .
@@ -567,7 +540,14 @@ public class Number {
         String finalHex = DecToHex(HexToDec(hexNumber1) - HexToDec(hexNumber2));
         return finalHex;
     }
-
+    
+    
+    /**
+     * This method Holds division of two Decimal numbers .
+     * @param decNumber1 The number that divided by the number (Decimal number) .
+     * @param decNumber2 The number that divide another number (Decimal number) .
+     * @return The division of them .
+     */
     public long Dec_Div(long decNumber1, long decNumber2) {
         long finalDec = 0;
         if (decNumber2 > 0) {
@@ -580,7 +560,6 @@ public class Number {
 
     /**
      * This method Holds division of two Binary numbers .
-     *
      * @param binNumber1 The number that divided by the number (Binary number) .
      * @param binNumber2 The number that divide another number (Binary number) .
      * @return The division of them .
@@ -597,7 +576,6 @@ public class Number {
 
     /**
      * This method Holds division of two Octal numbers .
-     *
      * @param OctNumber1 The number that divided by the number (Octal number) .
      * @param OctNumber2 The number that divide another number (Octal number) .
      * @return The division of them .
@@ -614,11 +592,8 @@ public class Number {
 
     /**
      * This method Holds division of two Hexadecimal numbers .
-     *
-     * @param hexNumber1 The number that divided by the number (Hexadecimal
-     * number) .
-     * @param hexNumber2 The number that divide another number (Hexadecimal
-     * number) .
+     * @param hexNumber1 The number that divided by the number (Hexadecimal number) .
+     * @param hexNumber2 The number that divide another number (Hexadecimal number) .
      * @return The division of them .
      */
     public String Hex_Div(String hexNumber1, String hexNumber2) {
@@ -633,7 +608,6 @@ public class Number {
 
     /**
      * This method Holds Multiplication of two Decimal numbers .
-     *
      * @param decNumber1 The first Decimal number .
      * @param decNumber2 The second Decimal number .
      * @return The Multiplication of them .
@@ -645,7 +619,6 @@ public class Number {
 
     /**
      * This method Holds Multiplication of two Binary numbers .
-     *
      * @param binNumber1 The first Binary number .
      * @param binNumber2 The second Binary number .
      * @return The Multiplication of them .
@@ -657,7 +630,6 @@ public class Number {
 
     /**
      * This method Holds Multiplication of two Octal numbers .
-     *
      * @param OctNumber1 The first Octal number .
      * @param OctNumber2 The second Octal number .
      * @return The Multiplication of them .
@@ -669,7 +641,6 @@ public class Number {
 
     /**
      * This method Holds Multiplication of two Hexadecimal numbers .
-     *
      * @param hexNumber1 The first Hexadecimal number .
      * @param hexNumber2 The second Hexadecimal number .
      * @return The Multiplication of them .
@@ -679,4 +650,4 @@ public class Number {
         return finalHex;
     }
 
-}
+} // CODE END
