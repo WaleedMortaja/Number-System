@@ -1,5 +1,8 @@
 package NumberSystem;
-
+/**
+*
+* @author mahmoud+Eyad
+*/
 public class Number {
 
     /**
