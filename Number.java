@@ -30,7 +30,9 @@ public class NumeralSystems {
      * @param binNumber the number in long type in the Binary system .
      * @return the number in the Decimal system .
      */
-    public long BinToDec(long binNumber) //B2D
+    
+    //Try this comment at line 34 , and deleted the comment at line 35
+    public long BinToDec(long binNumber)
     {
 
         String bin = binNumber + "";
